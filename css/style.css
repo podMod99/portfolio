@@ -1,74 +1,74 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
-    background-color: #2f2d2f;
-    /* background-image: url(../images/background.jpg); */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #f0ecf2;
-    min-height: 100%;
-    margin: 0;
-    position: relative;
-    font-family: 'Inconsolata',monospace;
-    -webkit-font-smoothing: antialiased;
+body {
+  background-color: #2f2d2f;
+  /* background-image: url(../images/background.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f0ecf2;
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+  font-family: 'Inconsolata', monospace;
+  -webkit-font-smoothing: antialiased;
 }
 
-a{
+a {
   list-style: none;
   color: inherit;
   text-decoration: none;
 }
 
-ul{
+ul {
   padding: 0;
   margin: 0;
-  list-style: none
+  list-style: none;
 }
 
-li{
-  display: inline-block
+li {
+  display: inline-block;
 }
 
-i{
-  transition: 0.4s
+i {
+  transition: 0.4s;
 }
 
-nav{
-  background: linear-gradient(#6c3b7b,#633670);
+nav {
+  background: linear-gradient(#6c3b7b, #633670);
   z-index: 100;
   position: fixed;
-  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   width: 100%;
   height: 39px;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   box-sizing: border-box;
 }
 
-nav a:hover{
+nav a:hover {
   text-decoration: underline;
 }
 
-#navContainer{
+#navContainer {
   padding-left: 30px;
   padding-right: 20px; /* padding right less because nav items (contact) has 10px padding */
   height: 100%;
 }
 
-#logoContainer{
+#logoContainer {
   display: inline-block;
   height: 100%;
 }
 
-#logoContainer a{
+#logoContainer a {
   display: none;
   line-height: 39px;
   padding-left: 26px;
 }
 
-#logo{
+#logo {
   /* adjust width so that logo is 16px w/h */
   width: 16px;
   height: 16px;
@@ -77,74 +77,75 @@ nav a:hover{
   transform: translateY(-50%);
 }
 
-#navLinksList{
+#navLinksList {
   margin: auto;
   float: right;
 }
 
-.navLinks{
+.navLinks {
   line-height: 39px;
-  padding-right: 10px
+  padding-right: 10px;
 }
 
 /* new section */
 
-.quickContact{
+.quickContact {
   height: 39px;
   padding-left: 30px;
   padding-right: 20px;
-  background: rgba(12,12,12,.75);
-  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  background: rgba(12, 12, 12, 0.75);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 0 0 5px 5px;
   padding-top: 39px;
 }
 
-#email{
+#email {
   display: inline-block;
   line-height: 39px;
 }
 
-#email li{
-  padding-right: 10px
+#email li {
+  padding-right: 10px;
 }
 
-#email i:hover{
+#email i:hover {
   color: #6c3b7b;
 }
 
-#email span{
+#email span {
   display: none;
   padding-left: 8px;
-  font-family: 'Inconsolata',monospace;
+  font-family: 'Inconsolata', monospace;
   font-weight: normal;
 }
 
-#gitLinkedin{
+#gitLinkedin {
   float: right;
   display: inline-block;
   line-height: 39px;
 }
 
-#gitLinkedin li{
+#gitLinkedin li {
   padding-right: 10px;
 }
 
-#gitLinkedin i:active, i:hover{
-  color: #6c3b7b
+#gitLinkedin i:active,
+i:hover {
+  color: #6c3b7b;
 }
 
-#gitLinkedin span{
+#gitLinkedin span {
   display: none;
   padding-left: 8px;
-  font-family: 'Inconsolata',monospace;
+  font-family: 'Inconsolata', monospace;
 }
 /* new section */
 
-.mainContainers{
+.mainContainers {
   scroll-margin-top: 49px;
 }
 
-.sectionTitle{
+.sectionTitle {
   color: #000;
   min-height: 21px;
   padding-top: 5px;
@@ -153,66 +154,66 @@ nav a:hover{
   margin-top: 2em;
   display: block;
   box-shadow: #f1f1f1 0 1px inset;
-  background: linear-gradient(#e4e4e4,#b8b7b8);
+  background: linear-gradient(#e4e4e4, #b8b7b8);
   border-radius: 4px 4px 0 0;
 }
 
-.sectionContent{
-  background: rgba(12,12,12,.75);
-  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+.sectionContent {
+  background: rgba(12, 12, 12, 0.75);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 0 0 5px 5px;
   padding: 30px;
   font-size: 16px;
   line-height: 1.75;
 }
 
-#headshot{
+#headshot {
   width: 100%;
   border-radius: 5px;
 }
 
-#bio :last-child{
+#bio :last-child {
   margin-bottom: 0;
 }
 
 /* New section */
 
-.sectionHeader{
+.sectionHeader {
   margin-top: 0;
 }
 
-.projectImage{
+.projectImage {
   width: 100%;
   border-radius: 5px;
   /* margin: 5px 0px */
 }
 
-.projectContainer{
-  box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+.projectContainer {
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   /* border: 1px solid rgba(99,54,112,1); */ /* Might add border or just have border with no bg color */
-  background: rgba(99,54,112,0.3);
+  background: rgba(99, 54, 112, 0.3);
   padding: 5% 5% 0% 5%;
   margin-bottom: 5%;
   transition: 0.4s;
 }
 
-.projectContainer:hover{
-  background: rgba(99,54,112,0.6);
+.projectContainer:hover {
+  background: rgba(99, 54, 112, 0.6);
 }
 
-.projectDescription{
+.projectDescription {
   margin-bottom: 0px;
   padding-bottom: 5%;
 }
 
-.projectLinksContainer{
+.projectLinksContainer {
   width: 100%;
   text-align: center;
   padding-bottom: 4px;
 }
 
-.projectLinks i{
+.projectLinks i {
   padding: 4px;
   border-radius: 100%;
   border: 1px solid #fff;
@@ -220,26 +221,26 @@ nav a:hover{
 
 /* New section */
 
-.contactContainer a{
+.contactContainer a {
   transition: 0.4s;
   text-decoration: underline;
 }
 
-.contactContainer a:hover{
+.contactContainer a:hover {
   color: #6c3b7b;
 }
 
-#firstH3{
-  margin-top: 0
+#firstH3 {
+  margin-top: 0;
 }
 
-.contactContainer li{
+.contactContainer li {
   display: block;
 }
 
 /* new section */
 
-body .quickContact:nth-last-child(1){
+body .quickContact:nth-last-child(1) {
   padding-top: 0;
   margin-top: 2em;
   border-radius: 5px 5px 0 0;
@@ -247,43 +248,43 @@ body .quickContact:nth-last-child(1){
 
 /* desktop style */
 
-@media only screen and (min-width: 768px){
-  #container{
+@media only screen and (min-width: 768px) {
+  #container {
     max-width: 85%;
     margin: 0 auto;
   }
 
-  #navContainer{
+  #navContainer {
     max-width: 85%;
     margin: 0 auto;
     padding-left: 80px;
   }
 
-  #navLinksList{
+  #navLinksList {
     padding-right: 50px;
   }
 
-  #logoContainer a{
+  #logoContainer a {
     display: inline;
   }
 
-  #email span{
+  #email span {
     display: inline;
   }
 
-  #gitLinkedin span{
+  #gitLinkedin span {
     display: inline;
   }
 
   /* aBOUT STYLE */
-  #headShotContainer{
+  #headShotContainer {
     width: 25%;
     display: inline-block;
     line-height: 0;
     vertical-align: middle;
   }
 
-  #bio{
+  #bio {
     display: inline-block;
     width: 70%;
     vertical-align: top;
@@ -291,22 +292,22 @@ body .quickContact:nth-last-child(1){
     box-sizing: border-box;
   }
 
-  #bio h2{
+  #bio h2 {
     margin-top: 0;
     line-height: 0.9;
   }
 
   /* Portfolio */
-  .sectionHeader{
+  .sectionHeader {
     line-height: 1;
   }
 
-  #projectsWrapper{
+  #projectsWrapper {
     display: flex;
     align-items: center;
   }
 
-  .projectContainer{
+  .projectContainer {
     width: 32%;
     display: inline-block;
     box-sizing: border-box;
@@ -315,66 +316,73 @@ body .quickContact:nth-last-child(1){
     margin: 0 auto;
   }
 
-  .projectContainer h2{
+  .projectContainer h2 {
     margin: 0;
   }
 
-  .projectDescription{
+  .projectDescription {
     margin: 0;
     padding: 0;
+    height: 200px;
+    overflow-y: scroll;
   }
 
-  .projectLinksContainer{
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .projectLinksContainer {
     padding: 0;
     padding-top: 8px;
   }
 
   /* contact */
-  #linksSectionSelector{
+  #linksSectionSelector {
     display: flex;
     justify-content: center;
   }
 
-  .contactContainer{
+  .contactContainer {
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
-    margin: 0 auto
+    margin: 0 auto;
   }
 
-  .contactContainer h3{
+  .contactContainer h3 {
     margin-top: 0;
   }
 }
 
 /* larger font size for high res screens */
 
-@media only screen and (min-width: 2000px){
-  body *{
-    font-size: 1.8rem
+@media only screen and (min-width: 2000px) {
+  body * {
+    font-size: 1.8rem;
   }
 
-  #logo{
+  #logo {
     width: 1.8rem;
-    height: 1.8rem
+    height: 1.8rem;
   }
 
-  #logoContainer a{
-    padding-left: calc(1.8rem + 17px)
+  #logoContainer a {
+    padding-left: calc(1.8rem + 17px);
   }
 }
 
-@media only screen and (min-width: 3500px){
-  body *{
-    font-size: 2.5rem
+@media only screen and (min-width: 3500px) {
+  body * {
+    font-size: 2.5rem;
   }
 
-  #logo{
+  #logo {
     width: 2.5rem;
-    height: 2.5rem
+    height: 2.5rem;
   }
 
-  #logoContainer a{
-    padding-left: calc(2.5rem + 17px)
+  #logoContainer a {
+    padding-left: calc(2.5rem + 17px);
   }
 }
