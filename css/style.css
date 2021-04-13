@@ -323,7 +323,7 @@ body .quickContact:nth-last-child(1) {
     margin: 0;
     padding: 0;
     height: 200px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   ::-webkit-scrollbar {
